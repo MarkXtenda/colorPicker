@@ -4,6 +4,10 @@
   let red = 0;
   let green = 0;
   let blue = 0;
+  $: hexColor = `#${hex(red)}${hex(green)}${hex(blue)}`;
+  function hex(color) {
+    return color.toString(16).padStart(2, '0');
+  }
 </script>
 
 <style>
@@ -18,5 +22,5 @@
     <ColorInput colorName="Blue" bind:color={blue}/>
   </div>
 
-  <ColorVisualiser {red}{green}{blue}/>
+  <ColorVisualiser {red}{green}{blue}{hexColor}/>
 </main>
