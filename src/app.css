@@ -27,6 +27,19 @@ body {
   flex-direction: row;
 }
 
+.color-range-input {
+  padding: 15px;
+}
+
+.color-image {
+  height: 30rem;
+}
+
+.text-color-visualiser {
+  font-weight: 500;
+  font-size: larger;
+}
+
 #app {
   max-width: 1280px;
   margin: 0 auto;

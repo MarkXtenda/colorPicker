@@ -14,8 +14,8 @@
   <h1>Color Picker 🎨</h1>
   <div class="input">
     <ColorInput colorName="Red" bind:color={red}/>
-    <ColorInput colorName="Green" bind:color={red}/>
-    <ColorInput colorName="blue" bind:color={red}/>
+    <ColorInput colorName="Green" bind:color={green}/>
+    <ColorInput colorName="Blue" bind:color={blue}/>
   </div>
 
   <ColorVisualiser {red}{green}{blue}/>
