@@ -1,6 +1,6 @@
 # ColorPicker App🎨
 
-A simple Color Picker app built with Svelte.
+A simple Color Picker app built with Svelte: https://color-picker-by-mark.vercel.app
 
 ## Description
 
